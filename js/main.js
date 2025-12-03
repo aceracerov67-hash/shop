@@ -185,7 +185,205 @@ function renderblog() {
 renderblog();
 
 
+// const link =[
+//            {
+//               img: "./images/image 44.png",
+//               title: "Garden Care",
+//               text: "We are an online plant shop offering a wide range of cheap and trendy plants."
+//            },
+//             {
+//               img: "./images/Group 18.png",
+//               title: "Garden Care",
+//               text: "We are an online plant shop offering a wide range of cheap and trendy plants."
+//            },
+//             {
+//               img: "./images/Group 19.png",
+//               title: "Garden Care",
+//               text: "We are an online plant shop offering a wide range of cheap and trendy plants."
+//            },
+//            {
+//             title: "Would you like to join newsletters?",
+//             input:"" ,
+//               button: "",
+//            },
+// ];
 
 
 
+
+
+// const  linkBox = document.querySelector(".link-box");
+
+// function renderlink() {
+//     let result = "";
+
+//      link.forEach(item => {
+//         result += `
+//         <div class=" link">
+//             <div class=" link-img-box">
+//                 <img src="${item.img}" class=" link-img">
+//             </div>
+//             <h3 class=" link-title">${item.title}</h3>
+//             <p class=" link-price">
+//                 <span class="new">${item.text}</span>
+//             </p>
+                
+//                 <input type="email" placeholder="Enter your email" ${item.input}>
+//                 <button>${item.button}</button>
+                
+
+//         </div>`;
+//     });
+
+//      linkBox.innerHTML = result;
+// }
+
+// renderlink();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// const link = [
+//     {
+//         img: "./images/image 44.png",
+//         title: "Garden Care",
+//         text: "We are an online plant shop offering a wide range of cheap and trendy plants."
+//     },
+//     {
+//         img: "./images/Group 18.png",
+//         title: "Plant Renovation",
+//         text: "We are an online plant shop offering a wide range of cheap and trendy plants."
+//     },
+//     {
+//         img: "./images/Group 19.png",
+//         title: "Watering Plants",
+//         text: "We are an online plant shop offering a wide range of cheap and trendy plants."
+//     },
+//     {
+//         title: "Would you like to join newsletters?",
+//         type: "input-card", 
+//         text: "We usually post offers and challenges in newsletter. We’re your online houseplant destination. We offer a wide range of houseplants and accessories shipped directly from our (green)house to yours! "
+//     },
+// ];
+
+// const linkBox = document.querySelector(".link-box");
+
+// function renderlink() {
+//     let result = "";
+
+//     link.forEach(item => {
+
+//         if(item.type === "input-card") {
+//             result += `
+//             <div class="link">
+//                 <h3 class="link-title">${item.title}</h3>
+
+//                 <div class="email-box">
+//                     <input type="email" placeholder="Enter your email">
+//                     <button>Join</button>
+//                      <p class="link-text">${item.text}</p>
+//                 </div>
+//             </div>`;
+//         } 
+       
+//         else {
+//             result += `
+//             <div class="link">
+//                 <div class="link-img-box">
+//                     <img src="${item.img}" class="link-img">
+//                 </div>
+
+//                 <h3 class="link-title">${item.title}</h3>
+
+//                 <p class="link-text">${item.text}</p>
+//             </div>`;
+//         }
+
+//     });
+
+//     linkBox.innerHTML = result;
+// }
+
+// renderlink();
+
+
+
+
+
+
+
+
+
+const link = [
+    {
+        img: "./images/image 44.png",
+        title: "Garden Care",
+        text: "We are an online plant shop offering a wide range of cheap and trendy plants."
+    },
+    {
+        img: "./images/Group 18.png",
+        title: "Plant Renovation",
+        text: "We are an online plant shop offering a wide range of cheap and trendy plants."
+    },
+    {
+        img: "./images/Group 19.png",
+        title: "Watering Plants",
+        text: "We are an online plant shop offering a wide range of cheap and trendy plants."
+    },
+    {
+        title: "Would you like to join newsletters?",
+        type: "input-card", 
+        text: "We usually post offers and challenges in newsletter. We’re your online houseplant destination. We offer a wide range of houseplants and accessories shipped directly from our (green)house to yours!"
+    },
+];
+
+const linkBox = document.querySelector(".link-box");
+
+function renderlink() {
+    let result = "";
+
+    link.forEach(item => {
+
+        if(item.type === "input-card") {
+            // OXIRGI CARD – oddiy card ko‘rinishida
+            result += `
+            <div class="link">
+                <h3 class="link-title">${item.title}</h3>
+                <p class="link-text">${item.text}</p>
+
+                <div class="email-box">
+                    <input type="email" placeholder="Enter your email">
+                    <button>Join</button>
+                </div>
+            </div>`;
+        } 
+        
+        else {
+            // ODDIY CARD
+            result += `
+            <div class="link">
+                <div class="link-img-box">
+                    <img src="${item.img}" class="link-img">
+                </div>
+                <h3 class="link-title">${item.title}</h3>
+                <p class="link-text">${item.text}</p>
+            </div>`;
+        }
+
+    });
+
+    linkBox.innerHTML = result;
+}
+
+renderlink();
 

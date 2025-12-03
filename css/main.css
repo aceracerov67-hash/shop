@@ -598,7 +598,6 @@ body{
     gap: 25px;
 }
 
-
 @media (max-width: 900px){
     .blog-box{
         grid-template-columns: repeat(2, 1fr);
@@ -615,3 +614,98 @@ body{
     }
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.link-box{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 ta card bir qatorda */
+    gap: 25px;
+    align-items: start;
+}
+
+/* Har bir card */
+.link{
+    border: 1px solid #e5e5e5;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    background: #fff;
+}
+
+/* Rasm */
+.link-img-box{
+    width: 100%;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.link-img{
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+}
+
+/* Matn */
+.link-title{
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.link-text{
+    font-size: 14px;
+    color: #666;
+}
+
+/* Email input card */
+.email-box{
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.email-box input{
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+.email-box button{
+    padding: 10px 15px;
+    background: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.email-box button:hover{
+    background: #3f8d42;
+}
