@@ -81,3 +81,89 @@ function renderProducts() {
 }
 
 renderProducts();
+
+
+// const find = [
+    
+//      {
+//          img: "./images/image 100.png",
+//         name: "SUMMER CACTUS & SUCCULENTS",
+//         firstname: "We are an online plant shop offering a wide range of cheap and trendy plants",
+//         btn: "FIND MORE"
+//      },
+   
+//       {
+//          img: "./images/image 100.png",
+//         name: "SUMMER CACTUS & SUCCULENTS",
+//         firstname: "We are an online plant shop offering a wide range of cheap and trendy plants",
+//         btn: "FIND MORE"
+//      },
+// ];
+
+// const CardBox = document.querySelector(".find-box");
+
+// function renderfind() {
+//     let result = "";
+
+//     find.forEach(item => {
+//         result += `
+//         <div class="card">
+//             <div class="card-img-box">
+               
+
+//                 <img src="${item.img}" class="card-img">
+//             </div>
+
+//             <h3 class="card-title">${item.name}</h3>
+//             <p class="card-price">
+//                 <span class="new">${item.firstname}</span>
+//             </p>
+//             <button class="card-btn">${item.btn}</button>
+//         </div>`;
+//     });
+
+//     CardBox.innerHTML = result;
+// }
+
+// renderfind();
+
+
+const find = [
+    {
+        img: "./images/image100.png",
+        name: "SUMMER CACTUS & SUCCULENTS",
+        firstname: "We are an online plant shop offering a wide range of cheap and trendy plants",
+        btn: "Find More"
+    },
+    {
+        img: "./images/image101.png",
+        name: "STYLING TRENDS & MUCH MORE",
+        firstname: "We are an online plant shop offering a wide range of cheap and trendy plants",
+        btn: "Find More"
+    },
+];
+const pageBox = document.querySelector(".find-box");
+
+function renderfind() {
+    let result = "";
+
+    find.forEach(item => {
+        result += `
+        <div class="page">
+            <div class="page-img-box">
+                <img src="${item.img}" class="page-img">
+            </div>
+
+            <h3 class="page-title">${item.name}</h3>
+            <p class="page-price">
+                <span class="new">${item.firstname}</span>
+            </p>
+            <button class="page-btn">${item.btn}</button>
+        </div>`;
+    });
+
+    pageBox.innerHTML = result;
+}
+
+renderfind();
+
