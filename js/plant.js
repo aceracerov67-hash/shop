@@ -101,28 +101,6 @@ function renderProducts() {
 
 renderProducts();
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 const cartData = [
     {
         name: "Barberton Daisy",
@@ -151,7 +129,6 @@ const cartBody = document.getElementById("cart-body");
 const subtotalEl = document.getElementById("subtotal");
 const totalEl = document.getElementById("total");
 
-// Render function
 function renderCart() {
     cartBody.innerHTML = "";
 
@@ -188,7 +165,6 @@ function renderCart() {
     updateTotals();
 }
 
-// Update totals
 function updateTotals() {
     let subtotal = 0;
 
@@ -200,7 +176,6 @@ function updateTotals() {
     totalEl.innerText = "$" + (subtotal + 16).toFixed(2);
 }
 
-// Buttons (+ / - / delete)
 document.addEventListener("click", e => {
     if (e.target.classList.contains("plus")) {
         let i = e.target.dataset.index;
@@ -223,5 +198,4 @@ document.addEventListener("click", e => {
     }
 });
 
-// Start
 renderCart();

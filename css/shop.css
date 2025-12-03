@@ -165,13 +165,6 @@ body{
 }
 
 
-
-
-
-
-
-
-
 :root {
   --green: #46a358;
   --border: #e1e1e1;
@@ -444,16 +437,6 @@ body {
 
 
 
-
-
-
-
-
-
-
-/* ---------------------------------------------------- */
-
-
 .product-box {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
@@ -502,8 +485,6 @@ font-weight: 500;
 }
 
 
-
-
 .footer {
     background-color: #46A35833;
     color: #000;
@@ -521,18 +502,6 @@ font-weight: 500;
 .footer a, .footer p, .footer-address {
     margin: 0;               
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 .footer1 {
     background-color: #ffffff; 

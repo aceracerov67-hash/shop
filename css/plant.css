@@ -163,28 +163,12 @@ body{
         display: none;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .cart-container {
     display: flex;
     gap: 40px;
     align-items: flex-start;
     margin-top: 40px;
 }
-
-/* LEFT SIDE */
 .cart-table {
     width: 100%;
     border-collapse: collapse;
@@ -202,7 +186,6 @@ body{
     border-bottom: 1px solid #eee;
 }
 
-/* PRODUCT INFO */
 .prod-info {
     display: flex;
     gap: 12px;
@@ -225,7 +208,6 @@ body{
     color: gray;
 }
 
-/* QUANTITY BOX */
 .qty {
     display: flex;
     align-items: center;
@@ -247,7 +229,6 @@ body{
     font-weight: 600;
 }
 
-/* RIGHT SIDE */
 .cart-right {
     background: #fff;
     padding: 25px;
@@ -281,7 +262,6 @@ body{
     cursor: pointer;
 }
 
-/* TOTALS */
 .totals p {
     display: flex;
     justify-content: space-between;
@@ -299,8 +279,6 @@ body{
     color: #46A358;
     text-decoration: underline;
 }
-
-/* BUTTONS */
 .checkout {
     width: 100%;
     background: #46A358;
@@ -319,29 +297,12 @@ body{
     color: gray;
 }
 
-
-
-
-
-
-
-/* --------------------------------------------------------------------- */
-
-
-
-
-
-
-
 .product-box {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     gap: 35px;
     padding: 20px 0;
 }
-
-
-
 
 
 
@@ -385,9 +346,6 @@ color: #000000;
 font-weight: 500;
 }
 
-
-
-
 .footer {
     background-color: #46A35833;
     color: #000;
@@ -405,19 +363,6 @@ font-weight: 500;
 .footer a, .footer p, .footer-address {
     margin: 0;               
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 .footer1 {
     background-color: #ffffff; 
     color: #000000;

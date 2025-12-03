@@ -1,5 +1,4 @@
 
-
 * {
     margin: 0;
     padding: 0;
@@ -164,27 +163,6 @@ body{
     }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-/* ------------------------------------------------------------------------ */
-
-
-
-
-
-
-
-
-
 .link-box {
 display: flex;
 flex-wrap: wrap;
@@ -226,8 +204,6 @@ font-weight: 500;
 }
 
 
-
-
 .footer {
     background-color: #46A35833;
     color: #000;
@@ -245,17 +221,6 @@ font-weight: 500;
 .footer a, .footer p, .footer-address {
     margin: 0;               
 }
-
-
-
-
-
-
-
-
-
-
-
 
 
 .footer1 {

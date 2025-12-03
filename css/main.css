@@ -328,9 +328,6 @@ body{
     margin-left: 8px;
 }
 
-
-
-
 .shop-layout {
     display: flex;
     gap: 40px;
@@ -413,8 +410,6 @@ body{
     width: 100%;
     border-radius: 10px;
 }
-
-
 
 
 .find {
@@ -502,10 +497,6 @@ body{
 }
 
 
-
-/* --------------------------------------------------------- */
-
-
 *{
     box-sizing: border-box;
     margin: 0;
@@ -591,7 +582,6 @@ body{
     transition: 0.3s;
 }
 
-
 .blog-box{
     display: grid;
     grid-template-columns: repeat(4, 1fr); 
@@ -613,8 +603,6 @@ body{
         height: 180px;
     }
 }
-
-
 
 .link-box {
 display: flex;
@@ -656,9 +644,6 @@ color: #000000;
 font-weight: 500;
 }
 
-
-
-
 .footer {
     background-color: #46A35833;
     color: #000;
@@ -676,19 +661,6 @@ font-weight: 500;
 .footer a, .footer p, .footer-address {
     margin: 0;               
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 .footer1 {
     background-color: #ffffff; 
     color: #000000;
