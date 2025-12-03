@@ -104,10 +104,6 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
 
-
-
-
-
 const products = [
     {
         img: "./images/image 1.png",
@@ -155,6 +151,7 @@ function renderProducts() {
             <p class="card-price">
                 <span class="new">${item.price}</span>
             </p>
+            
         </div>`;
     });
 
@@ -162,3 +159,7 @@ function renderProducts() {
 }
 
 renderProducts();
+
+
+
+

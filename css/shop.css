@@ -448,6 +448,12 @@ body {
 
 
 
+
+
+
+/* ---------------------------------------------------- */
+
+
 .product-box {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
@@ -455,19 +461,11 @@ body {
     padding: 20px 0;
 }
 
-
-
-
-
-
-
-/* ---------------------------------------------------- */
-
 .link-box {
 display: flex;
 flex-wrap: wrap;
 gap: 20px;
-justify-content: center; 
+justify-content: space-between; 
 padding: 20px 0;
 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
