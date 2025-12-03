@@ -448,6 +448,12 @@ body {
 
 
 
+.product-box {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 35px;
+    padding: 20px 0;
+}
 
 
 
