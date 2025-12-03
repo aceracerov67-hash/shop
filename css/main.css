@@ -652,7 +652,7 @@ color: #666;
 }
 
 .link-price .new {
-color: #4CAF50;
+color: #000000;
 font-weight: 500;
 }
 
@@ -676,6 +676,5 @@ font-weight: 500;
 .footer a, .footer p, .footer-address {
     margin: 0;               
 }
-
 
 
